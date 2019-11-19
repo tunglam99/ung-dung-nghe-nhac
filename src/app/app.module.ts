@@ -3,10 +3,14 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { YoutubePlayerComponent } from './youtube-player/youtube-player.component';
+import {YoutubePlaylistComponent} from './youtube-playlist/youtube-playlist.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    YoutubePlayerComponent,
+    YoutubePlaylistComponent
   ],
   imports: [
     BrowserModule,
